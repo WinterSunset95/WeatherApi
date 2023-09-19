@@ -1,0 +1,74 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	border: 1px solid gray;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	width: 24rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#display {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+h1 {
+	padding: 0;
+	margin: 0 0 1rem 0;
+}
+
+.input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+button {
+	flex: 0;
+	margin-left: 1rem;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+input[type="text"] {
+	border: none;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.placeholder {
+	transform: scale(1);
+	transition: all 0.5s ease-in-out;
+}
+
+.userinput {
+	width: 100%;
+	padding: 0.5rem;
+	border: 1px solid gray;
+	border-radius: 0.5rem;
+	flex: 1;
+	cursor: text;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
